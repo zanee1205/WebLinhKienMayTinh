@@ -1,0 +1,13 @@
+[Unit]
+Description=ZaneeStore Salesforce one-way sync (runs once per timer)
+After=network.target docker.service
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/path/to/zaneestore   # REPLACE with checkout path on EC2
+ExecStart=/path/to/zaneestore/deploy/run_sync.sh
+TimeoutStartSec=300
+
+[Install]
+WantedBy=multi-user.target

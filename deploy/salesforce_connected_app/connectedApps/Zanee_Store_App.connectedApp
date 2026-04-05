@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>Zanee Store</label>
+  <contactEmail>you@yourorg.dev</contactEmail>
+  <contactName>Zanee Store Admin</contactName>
+  <oauthConfig>
+    <callbackUrl>https://localhost/callback</callbackUrl>
+    <scopes>Api</scopes>
+    <scopes>RefreshToken</scopes>
+    <scopes>Full</scopes>
+  </oauthConfig>
+</ConnectedApp>
