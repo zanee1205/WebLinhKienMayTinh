@@ -1,3 +1,11 @@
+backend/.env.example
+backend/package.json
+backend/package-lock.json
+backend/data/store.json
+backend/data/users.json
+backend/src/db.js
+backend/src/server.js
+backend/scripts/check_db.js
 .gitignore
 Dockerfile
 README.md
